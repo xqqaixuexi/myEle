@@ -13,8 +13,8 @@ password：12345
 # clone 文件
 git clone https://github.com/xqqaixuexi/my-ele.git
 
-# 进入 try1 文件夹
-cd try1
+# 进入 myEle 文件夹
+cd myEle
 
 # install dependencies
 npm install
