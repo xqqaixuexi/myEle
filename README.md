@@ -1,10 +1,12 @@
 # myEle
 
 使用vue2 等相关工具模仿饿了么前端页面，有登录，购物车，查看订单，浏览商品等功能。
-######预览点这里：[https://xqqaixuexi.github.io/eleme-vue2-static/#/](https://hbxywdk.github.io/eleme-vue2-static/#/)
+
+######预览点这里：[https://xqqaixuexi.github.io/myEle/](https://xqqaixuexi.github.io/myEle/)
 网页是有假的账户密码的部分页面需要登录 ↓ ，最好在Chrome手机模式下浏览。
 username：admin 
 password：12345
+导航部分使用 Vue-swipe 插件，[https://github.com/ElemeFE/vue-swipe](https://github.com/ElemeFE/vue-swipe)
 ### 本地预览步骤
 
 ```
@@ -36,14 +38,14 @@ npm run dev
 
 
 
-```
 
-导航部分使用 Vue-swipe 插件，[https://github.com/ElemeFE/vue-swipe](https://github.com/ElemeFE/vue-swipe)
+
+
 
 商家列表部分，因为数据是伪造的，只有五个商家数据。
 
 ######business.vue（商家详情页）
-```
+
 ```
 // 部分代码
 export default {
