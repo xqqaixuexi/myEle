@@ -11,7 +11,7 @@ password：12345
 
 ```
 # clone 文件
-git clone https://github.com/xqqaixuexi/my-ele.git
+git clone https://github.com/xqqaixuexi/myEle.git
 
 # 进入 myEle 文件夹
 cd myEle
