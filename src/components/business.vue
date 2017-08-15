@@ -47,7 +47,7 @@
 
           <section class="single_commodity" v-for=" (x, index) in n.foods " :key="index">
             <div class="single_l">
-              <img src="../images/slider-pic/slider-pic5.jpeg" alt="">
+              <img src="../images/slider-pic/slider-pic8.jpeg" alt="">
             </div>
             <div class="single_r">
               <h4>{{ x.name }}</h4>

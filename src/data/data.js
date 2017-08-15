@@ -4,18 +4,18 @@ export var order = [
   {
     'restaurant_id': 's10001',
     'img_src': '',
-    'store_name': '麦当劳',
-    'order_birth_time': '2017-02-17 18:36',
+    'store_name': '大娘水饺',
+    'order_birth_time': '2017-07-20 11:36',
     'order_state': '订单已完成',
     'order_content': {},
-    'order_brief_info': '麦香鸡腿堡',
+    'order_brief_info': '猪肉水饺（大份）',
     'order_price': 22.9
   },
   {
     'restaurant_id': 's10001',
     'img_src': '',
     'store_name': '麦当劳',
-    'order_birth_time': '2017-02-17 18:43',
+    'order_birth_time': '2017-07-18 18:43',
     'order_state': '订单已完成',
     'order_content': {},
     'order_brief_info': '七虾堡等2件商品',
@@ -25,7 +25,7 @@ export var order = [
     'restaurant_id': 's10002',
     'img_src': '',
     'store_name': '周黑鸭',
-    'order_birth_time': '2017-02-17 18:45',
+    'order_birth_time': '2017-07-16 19:45',
     'order_state': '订单已完成',
     'order_content': {},
     'order_brief_info': '鸭脖',
@@ -35,21 +35,31 @@ export var order = [
     'restaurant_id': 's10001',
     'img_src': '',
     'store_name': '麦当劳',
-    'order_birth_time': '2017-02-17 18:55',
+    'order_birth_time': '2017-07-13 16:55',
     'order_state': '订单已完成',
     'order_content': {},
     'order_brief_info': '薯条等3件商品',
-    'order_price': 31.9
+    'order_price': 61.9
+  },
+    {
+    'restaurant_id': 's10001',
+    'img_src': '',
+    'store_name': '必胜客',
+    'order_birth_time': '2017-07-20 11:36',
+    'order_state': '订单已完成',
+    'order_content': {},
+    'order_brief_info': '小龙虾披萨（大份）',
+    'order_price': 52.9
   },
   {
     'restaurant_id': 's10001',
     'img_src': '',
     'store_name': '麦当劳',
-    'order_birth_time': '2017-02-17 17:36',
+    'order_birth_time': '2017-07-11 14:36',
     'order_state': '订单已完成',
     'order_content': {},
     'order_brief_info': '麦香鸡腿堡',
-    'order_price': 22.9
+    'order_price': 42.9
   }
 ];
 // 商家简略信息
@@ -222,7 +232,7 @@ export var bussinessInfo = {
         'type_accumulation': 'c1', // 类型累加
         'foods': [ // 大分类下单项列表
           {
-            'name': '吮指原味鸡', // 商品名
+            'name': '香辣鸡翅2块', // 商品名
             'rating': 4.67, // 评分
             'unit_price': 11, // 单价
             'restaurant_id': 's10001', // 商店id
@@ -236,9 +246,9 @@ export var bussinessInfo = {
             'image_path': '8b160883bdbeb19636f0099951b554c4jpeg'
           },
           {
-            'name': '香辣鸡腿堡',
+            'name': '麦辣鸡腿堡套餐',
             'rating': 5,
-            'unit_price': 17, // 单价
+            'unit_price': 29, // 单价
             'restaurant_id': 's10001',
             'description': '',
             'month_sales': 723,
@@ -250,9 +260,9 @@ export var bussinessInfo = {
             'image_path': '58844415a3cd43e9f0738d51ac915c8fjpeg'
           },
           {
-            'name': '蟹黄堡',
+            'name': '麦乐鸡5块',
             'rating': 5,
-            'unit_price': 17, // 单价
+            'unit_price': 11, // 单价
             'restaurant_id': 's10001',
             'description': '',
             'month_sales': 723,
@@ -272,9 +282,9 @@ export var bussinessInfo = {
         'type_accumulation': 'c2',
         'foods': [
           {
-            'name': '麦香鸡腿堡',
+            'name': '经典麦辣鸡腿堡',
             'rating': 5,
-            'unit_price': 18, // 单价
+            'unit_price': 17, // 单价
             'restaurant_id': 's10001',
             'description': '',
             'month_sales': 723,
@@ -286,9 +296,9 @@ export var bussinessInfo = {
             'image_path': '58844415a3cd43e9f0738d51ac915c8fjpeg'
           },
           {
-            'name': '大份薯条',
+            'name': '薯条（大）',
             'rating': 5,
-            'unit_price': 18, // 单价
+            'unit_price': 12, // 单价
             'restaurant_id': 's10001',
             'description': '',
             'month_sales': 723,

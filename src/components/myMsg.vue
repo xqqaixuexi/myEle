@@ -4,7 +4,7 @@
     <div class="myzone_content">
       <!-- 头 -->
       <div class="myzone_info clear">
-        <img src="../images/slider-pic/slider-pic11.jpeg" alt="">
+        <img src="../images/slider-pic/myzone_image.jpg" alt="">
         <div class="myzone_uid">
           <h3>{{ uname }}</h3>
           <p>185****3414</p>
@@ -15,21 +15,21 @@
     <div class="three_lan">
       <a class="three_lan_">
         <p class="big_colorful">
-          <span class="index-2FmrF_0" style="color: rgb(255, 153, 0);">0.00</span><span class="index-2V-Hh_0">元</span>
+          <span class="index-2FmrF_0" style="color: rgb(255, 153, 0);">钱包</span><span class="index-2V-Hh_0"></span>
         </p>
-        <p class="index-3S6cZ_0">余额</p>
+        <p class="index-3S6cZ_0"></p>
       </a>
       <a class="three_lan_" style="border-left: 1px solid #ddd;border-right: 1px solid #ddd;">
         <p class="big_colorful">
-          <span class="index-2FmrF_0" style="color: rgb(255, 95, 62);">1</span><span class="index-2V-Hh_0">个</span>
+          <span class="index-2FmrF_0" style="color: rgb(255, 95, 62);">优惠券</span><span class="index-2V-Hh_0"></span>
         </p>
-        <p class="index-3S6cZ_0">优惠</p>
+        <p class="index-3S6cZ_0"></p>
       </a>
       <a class="three_lan_">
         <p class="big_colorful">
-          <span class="index-2FmrF_0" style="color: rgb(106, 194, 11);">1000</span><span class="index-2V-Hh_0">分</span>
+          <span class="index-2FmrF_0" style="color: rgb(106, 194, 11);">积分</span><span class="index-2V-Hh_0"></span>
         </p>
-        <p class="index-3S6cZ_0">积分</p>
+        <p class="index-3S6cZ_0"></p>
       </a>
     </div>
     <!-- 栏 -->
@@ -41,6 +41,12 @@
         <span class="v-md">我的订单</span>
       </div>
     </router-link>
+    <div class="some_bar">
+      <svg class="v-md">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#blue_location"></use>
+      </svg>
+      <span class="v-md">收货地址</span>
+    </div>
     <div class="some_bar">
       <svg class="v-md">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shop"></use>
@@ -60,11 +66,11 @@
       </svg>
       <span class="v-md">服务中心</span>
     </div>
-    <div class="some_bar">
+    <div class="some_bar" @click='outLogin'>
       <svg class="v-md">
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#index.18edf5a"></use>
       </svg>
-      <span class="v-md">下载饿了么APP</span>
+      <span class="v-md">退出登录</span>
     </div>
     <fixedNav></fixedNav>
   </div>
@@ -95,7 +101,11 @@ export default {
     }
   },
   methods: {
-
+    outLogin(e){
+      // alert(111)
+      this.$store.dispatch('setLogin',false);
+      this.$router.replace('/index')
+    }
   },
   components: {
     fixedNav,
@@ -183,4 +193,5 @@ div.some_bar{
     margin-left:.2rem;
   }
 }
+
 </style>

@@ -5,7 +5,7 @@
       <div class="order_box">
         <div v-for=" (item, index) in  getOrder" class="order_one">
           <div class="order_img">
-            <img src="../images/shop-logo.png" alt="">
+            <img src="../images/shop-logo3.jpeg" alt="">
           </div>
           <div class="order_info">
             <header class="order_info_t">

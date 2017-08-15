@@ -42,10 +42,10 @@
 	              <p>甜品饮品</p>
 	            </div>
 	          </router-link>
-	          <router-link to="/search/商店超市">
+	          <router-link to="/search/商超便利">
 	            <div class="common_slider">
 	              <img src="../images/slider-pic/slider-pic3.jpeg" alt="">
-	              <p>商店超市</p>
+	              <p>商超便利</p>
 	            </div>
 	          </router-link>
 	          <router-link to="/search/预定早餐">
@@ -56,7 +56,7 @@
 	          </router-link>
 	          <router-link to="/search/果蔬生鲜">
 	            <div class="common_slider">
-	              <img src="../images/slider-pic/slider-pic5.jpeg" alt="">
+	              <img src="../images/slider-pic/slider-pic5.jpg" alt="">
 	              <p>果蔬生鲜</p>
 	            </div>
 	          </router-link>
@@ -72,10 +72,10 @@
 	              <p>准时达</p>
 	            </div>
 	          </router-link>
-	          <router-link to="/search/夜宵">
+	          <router-link to="/search/午餐">
 	            <div class="common_slider">
 	              <img src="../images/slider-pic/slider-pic8.jpeg" alt="">
-	              <p>夜宵</p>
+	              <p>午餐</p>
 	            </div>
 	          </router-link>
 	        </Swipe-item>
@@ -92,10 +92,10 @@
 	              <p>鲜花蛋糕</p>
 	            </div>
 	          </router-link>
-	          <router-link to="/search/汉堡">
+	          <router-link to="/search/汉堡薯条">
 	            <div class="common_slider">
 	              <img src="../images/slider-pic/slider-pic11.jpeg" alt="">
-	              <p>汉堡</p>
+	              <p>汉堡薯条</p>
 	            </div>
 	          </router-link>
 	          <router-link to="/search/日韩料理">
@@ -168,7 +168,7 @@
 
 		},
 		computed:{
-			//不知为何mapGetters的写法报错,已改正，package缺少一个东西
+			//因为无法识别...mapGetters的写法报错,已改正，package缺少一个东西
 			...mapGetters([
 				'getLogin',
 				'getBussinessbrief'
@@ -198,7 +198,7 @@
 	.index_main{
 		width:100%;
 		overflow:hidden;
-		.index_header{
+		.index_header{ 
 			background:#0096ff;
 			height:3rem;
     		padding:.26rem;
@@ -249,7 +249,7 @@
 		    background:#fff;
 		    margin-bottom:0.2rem;
 		    .common_slider{
-			      width:2.5rem;
+			      width:2.49rem;
 			      height:2rem;
 			      float: left;
 			      img{

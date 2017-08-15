@@ -68,7 +68,7 @@
   background:#fff;
 
   .business_pic{
-    width:1.6rem;
+    width:1.59rem;
     height:1.6rem;
     padding:0.4rem;
     float: left;

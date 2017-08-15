@@ -26,20 +26,38 @@ npm run dev
 
 > 使用到的相关库或工具：vue2 + vuex2 + vue-router2 + vue-swipe + vue-cli
 
+
+以下是部分页面
+
+首页
 <p align="center">
-  <img width="400" src="./md-img/ele1.png" alt="awesome">
-</p>
-<p align="center">
-  <img width="400" src="./md-img/ele2.png" alt="awesome">
-</p>
-<p align="center">
-  <img width="400" src="./md-img/ele3.png" alt="awesome">
+  <img width="400" src="./md-img/ele_index.png" alt="awesome">
 </p>
 
+登录页
+<p align="center">
+  <img width="400" src="./md-img/ele_login.png" alt="awesome">
+</p>
 
+商品页
+<p align="center">
+  <img width="400" src="./md-img/ele_business.png" alt="awesome">
+</p>
 
+支付页
+<p align="center">
+  <img width="400" src="./md-img/ele_pay.png" alt="awesome">
+</p>
 
+订单页
+<p align="center">
+  <img width="400" src="./md-img/ele_order.png" alt="awesome">
+</p>
 
+个人中心
+<p align="center">
+  <img width="400" src="./md-img/ele_myMsg.png" alt="awesome">
+</p>
 
 
 商家列表部分，因为数据是伪造的，只有五个商家数据。
