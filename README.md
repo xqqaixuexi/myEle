@@ -2,7 +2,7 @@
 
 使用vue2 等相关工具模仿饿了么前端页面，有登录，购物车，查看订单，浏览商品等功能。
 
-######预览点这里：[https://xqqaixuexi.github.io/myEle/](https://xqqaixuexi.github.io/myEle/)
+
 网页是有假的账户密码的部分页面需要登录 ↓ ，最好在Chrome手机模式下浏览。
 username：admin 
 password：12345
@@ -11,10 +11,10 @@ password：12345
 
 ```
 # clone 文件
-git clone https://github.com/xqqaixuexi/my-ele.git
+git clone https://github.com/xqqaixuexi/myEle.git
 
-# 进入 try1 文件夹
-cd try1
+# 进入 myEle 文件夹
+cd myEle
 
 # install dependencies
 npm install
@@ -132,7 +132,7 @@ data中定义一个购物车对象{ }，添加某样商品时，已存在就+1�
 每次添加获得点击按钮的坐标与目标位置的坐标，算得高度差值，用到了css3贝塞尔曲线。
 
 结算
-结算时将当前购物车中计算出的简略信息添加到state中，清空购物车，跳转路由。
+结算时将当前购物车中计算出的简略信息添加到state中，清空购物车，跳转路由。 
 ```
 
 
