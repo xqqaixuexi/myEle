@@ -17,7 +17,7 @@ git clone https://github.com/xqqaixuexi/myEle.git
 cd myEle
 
 # install dependencies
-npm install
+npm install（服务器在国外，这个过程会很慢，可用cnpm）
 
 # 运行 npm run dev 会在浏览器打开 localhost:8080
 npm run dev
@@ -66,11 +66,44 @@ npm run dev
 
 ```
 // 部分代码
+
+import Backbar from './small_components/back.vue';
+import YellowStar from './small_components/rate.vue';
+
 export default {
+  data () {
+    return {
+      showMe: false,
+      // 计算商品区域高度
+      computedContentHeight: window.innerHeight - (window.innerWidth / 10 * 4.2),
+      // 控制显示食物还是显示评价
+      changeShowType: 'food',
+      // 购物车列表
+      shoppingCarList: {},
+      // 大类数量
+      reNub: {},
+      // 购物车总数
+      allNub: 0,
+      // 商品总价格
+      totalPrice: 0,
+      // 最终价格（加运费）
+      allTotalPrice: 0,
+      // 是否弹出支付窗口
+      alertBoxShow: false,
+      // 是否弹出购物车
+      shoppingCarShow: false,
+
+    };
+  },
+  mounted () {
+    // 窗口大小改变，改变商品列高度
+    window.addEventListener('resize', this.watchHei, false);
+    this.showMe = true;
+  },
   computed: {
     // 通过id找到store中对应店铺信息
     business_info () {
-      return this.$store.getters.getFalseBussinessInfo[this.$route.params.id];
+      return this.$store.getters.getBussinessInfo[this.$route.params.id];
     }
   },
   methods: {

@@ -241,7 +241,7 @@ export default {
     // 初始化
     init () {
       this.rightControlLeftClass();
-      // 给购物车添加animationend事件，动画结束后去掉有animation的class
+      // 给购物车添加animationend事件（动画结束后去掉有animation的class）
       this.$refs.carIcon.addEventListener('animationend', () => {
       	
         this.$refs.carIcon.classList.remove('tantantan');
